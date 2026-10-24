@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "rotation-manager",
+  "version": "${version}",
+  "name": "RotationManager",
+  "description": "Server-side silent rotation manager with GCD quantization for Minecraft 1.21.1.",
+  "authors": [
+    "Chun"
+  ],
+  "contact": {
+    "homepage": "https://github.com/",
+    "sources": "https://github.com/"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "gg.alter.rotation.RotationManagerMod"
+    ]
+  },
+  "mixins": [
+    "rotation-manager.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
