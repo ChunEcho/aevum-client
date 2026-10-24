@@ -1,0 +1,30 @@
+# Build output
+build/
+out/
+bin/
+target/
+*.class
+
+# 保留 gradle wrapper，不要忽略
+# gradlew
+# gradlew.bat
+# gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+run/
+
+# Gradle
+.gradle/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
