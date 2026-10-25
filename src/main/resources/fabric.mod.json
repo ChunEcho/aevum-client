@@ -5,7 +5,8 @@
   "name": "Aevum Client",
   "description": "基于 Frog 魔改的 Minecraft 1.21.1 Fabric 客户端，针对 2b2t.xin。",
   "authors": [
-    "ChunEcho"
+    "ChunEcho",
+    "DeepSeek"
   ],
   "contact": {
     "homepage": "https://github.com/ChunEcho/aevum-client",
