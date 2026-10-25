@@ -1,25 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "rotation-manager",
+  "id": "aevum",
   "version": "${version}",
-  "name": "RotationManager",
-  "description": "Server-side silent rotation manager with GCD quantization for Minecraft 1.21.1.",
+  "name": "Aevum Client",
+  "description": "基于 Frog 魔改的 Minecraft 1.21.1 Fabric 客户端，针对 2b2t.xin。",
   "authors": [
-    "Chun"
+    "ChunEcho"
+  ],
+  "contributors": [
+    "DeepSeek",
+    "Claude"
   ],
   "contact": {
-    "homepage": "https://github.com/",
-    "sources": "https://github.com/"
+    "homepage": "https://github.com/ChunEcho/aevum-client",
+    "sources": "https://github.com/ChunEcho/aevum-client"
   },
   "license": "MIT",
   "environment": "client",
   "entrypoints": {
     "client": [
-      "gg.alter.rotation.RotationManagerMod"
+      "dev.aevum.AevumClient"
     ]
   },
   "mixins": [
-    "rotation-manager.mixins.json"
+    "aevum.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.15.0",
