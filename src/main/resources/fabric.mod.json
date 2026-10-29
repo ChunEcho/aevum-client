@@ -3,20 +3,15 @@
   "id": "aevum",
   "version": "${version}",
   "name": "Aevum Client",
-  "description": "基于 Frog 魔改的 Minecraft 1.21.1 Fabric 客户端，针对 2b2t.xin。",
+  "description": "Aevum Client",
   "authors": [
-    "ChunEcho",
-    "DeepSeek"
+    "Chun"
   ],
-  "contact": {
-    "homepage": "https://github.com/ChunEcho/aevum-client",
-    "sources": "https://github.com/ChunEcho/aevum-client"
-  },
-  "license": "MIT",
-  "environment": "client",
+  "accessWidener": "aevum.accesswidener",
+  "environment": "*",
   "entrypoints": {
-    "client": [
-      "dev.aevum.AevumClient"
+    "main": [
+      "dev.chun.Aevum"
     ]
   },
   "mixins": [
@@ -24,8 +19,10 @@
   ],
   "depends": {
     "fabricloader": ">=0.15.0",
-    "minecraft": "~1.21.1",
-    "java": ">=21",
-    "fabric-api": "*"
+    "minecraft": "1.21.1",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
   }
 }

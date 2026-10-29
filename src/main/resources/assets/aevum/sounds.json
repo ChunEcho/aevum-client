@@ -1,0 +1,17 @@
+{
+  "mio": {
+    "sounds": [
+      "aevum:mio"
+    ]
+  },
+  "mio2": {
+    "sounds": [
+      "aevum:mio2"
+    ]
+  },
+  "mio3": {
+    "sounds": [
+      "aevum:mio3"
+    ]
+  }
+}
